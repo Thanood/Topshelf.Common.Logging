@@ -1,0 +1,9 @@
+*.csproj.user
+*.suo
+*/bin/*
+*/obj/*
+packages/*
+!packages/repositories.config
+*/logs/*
+bin/*
+obj/*
