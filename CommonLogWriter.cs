@@ -1,20 +1,17 @@
 ﻿using Common.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Topshelf.Logging;
 
 namespace Topshelf.Common.Logging {
 	public class CommonLogWriter : LogWriter {
-		private string name;
+		private readonly string _name;
 
 		public CommonLogWriter(string name) {
-			this.name = name;
+			_name = name;
 		}
 
 		ILog GetLogger() {
-			return LogManager.GetLogger(name);
+			return LogManager.GetLogger(_name);
 		}
 
 		public void Debug(LogWriterOutputProvider messageProvider) {
