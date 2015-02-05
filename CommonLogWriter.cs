@@ -1,8 +1,5 @@
-﻿using Common.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
+using Common.Logging;
 using Topshelf.Logging;
 
 namespace Topshelf.Common.Logging {
