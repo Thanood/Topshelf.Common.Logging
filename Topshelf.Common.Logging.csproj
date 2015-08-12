@@ -29,6 +29,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Topshelf.Common.Logging.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Logging">
       <HintPath>packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
@@ -57,6 +63,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Topshelf.Common.Logging.nuspec" />
+    <None Include="Topshelf.Common.Logging.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/Thanood/Topshelf.Common.Logging</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common.Logging library bindings for Topshelf.</description>
-    <releaseNotes>Upgrade to Common.Logging 3.</releaseNotes>
+    <releaseNotes>Assembly signed.</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Topshelf Common.Logging</tags>
   </metadata>
