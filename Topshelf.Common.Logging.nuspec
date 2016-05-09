@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>thanood</authors>
+    <owners>thanood</owners>
+    <projectUrl>https://github.com/Thanood/Topshelf.Common.Logging</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Thanood/Topshelf.Common.Logging/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common.Logging library bindings for Topshelf.</description>
+    <releaseNotes>Assembly signed.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Topshelf Common.Logging</tags>
+  </metadata>
+</package>
